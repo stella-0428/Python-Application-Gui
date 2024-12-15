@@ -1,4 +1,5 @@
-FROM python3:latest
+FROM ubuntu:latest
+RUN apt-get install -y python3
 WORKDIR /pythonapp / &&
 RUN apt-get update && apt-get upgrade /&&
     apt-get install curl
